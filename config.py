@@ -1,7 +1,7 @@
 postgres_settings = {
-    "pguser": "postgres",
-    "pgpassword": "12345678",
-    "pghost": "localhost",
+    "pguser": "web",
+    "pgpassword": "qwerty",
+    "pghost": "postgres",
     "pgport": 5432,
     "pgdb": "transactions"
 }

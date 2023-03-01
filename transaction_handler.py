@@ -10,6 +10,7 @@ engine = get_engine_from_settings(postgres_settings)
 def handler():
     while True:
         try:
+
             session = get_session(engine)
             tr = session.query(TransactionModel).filter(TransactionModel.status == StatusEnum.not_processed).order_by(TransactionModel.time).first()
             # print(tr)
