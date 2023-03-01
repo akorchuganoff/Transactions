@@ -36,7 +36,6 @@ def handler():
         except Exception as e:
             print(e)
         finally:
-            time.sleep(0.5)
             continue
 
 
